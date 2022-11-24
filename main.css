@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.lil-gui {
+  display: none !important;
+}
+
+@media (min-width: 801px) {
+  .lil-gui {
+    display: flex !important;
+    bottom: 20px;
+    top: auto !important;
+    --background-color: #0000cc;
+    --title-background-color: #0000cc;
+    --text-color: #ffffff;
+    --title-text-color: #ffffff;
+    --number-color: #0000cc;
+    --widget-color: #ffffff;
+    --hover-color: #efefef;
+    --focus-color: #aff0fd;
+  }
+
+  .lil-gui button div,
+  .lil-gui input {
+    color: #0000cc;
+  }
+}
+
+
+/*# sourceMappingURL=main.css.map*/
